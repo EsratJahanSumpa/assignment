@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-container{
+    background: rgba(229, 84, 115, 0.10); 
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+   
+}
+.banner-img{
+    width: 500px;
+    margin-bottom: none;
+    display: flex;
+}
+.title{
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.description{
+    font-size: 18px;
+    font-family: Lato;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E55473;
+}
