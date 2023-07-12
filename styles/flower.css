@@ -11,11 +11,13 @@
     align-items: center;
    
 }
+
 .banner-img{
     width: 500px;
     margin-bottom: none;
     display: flex;
 }
+
 .title{
     color: #272727;
 font-family: Lato;
@@ -25,7 +27,7 @@ font-weight: 800;
 line-height: normal;
 }
 .description{
-    font-size: 18px;
+    font-size: 20px;
     font-family: Lato;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -36,4 +38,80 @@ line-height: normal;
     border: none;
     border-radius: 8px;
     background-color: #E55473;
+}
+.deal-container{
+        background: rgba(229, 84, 115, 0.10); 
+        display: flex;
+        justify-content: space-around;
+        height: 100vh;
+        align-items: center;
+       
+}
+
+.deal-title{
+    color: #272727;
+font-family: Lato;
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
+.off{
+    color: #E55473;
+}
+.deal-img{
+    width: 500px;
+    margin-bottom: none;
+    display: flex;
+}
+.deal-description{
+    font-size: 20px;
+    font-family: Lato;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sign-btn{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E55473;
+}
+.insta-title{
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+margin-top: 100px;
+padding-top: 100px;
+}
+.insta-container{
+    background: white
+        display: flex;
+        justify-content: space-around;
+        height: 100vh;
+        align-items: center;
+
+}
+.insta-description{
+    font-size: 20px;
+    font-family: Lato;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+.flowers-collection{
+   
+    display: flex;
+    justify-content: center;
+}
+.ful{
+    float: left;
+    width: 20%;
+    padding: 10px;
 }
