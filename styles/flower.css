@@ -11,9 +11,7 @@
     align-items: center;
    
 }
-.banner-photo{
 
-}
 .banner-img{
     width: 600px;
     margin: 15px 10px 0px 10px;
@@ -30,6 +28,7 @@ font-weight: 800;
 line-height: normal;
 }
 .description{
+    color: rgba(39, 39, 39, 0.60);
     font-size: 20px;
     font-family: Lato;
     margin-top: 15px;
@@ -42,6 +41,8 @@ line-height: normal;
     border-radius: 8px;
     background-color: #E55473;
 }
+
+
 .deal-container{
         background: rgba(229, 84, 115, 0.10); 
         display: flex;
@@ -69,6 +70,7 @@ line-height: normal;
     display: flex;
 }
 .deal-description{
+    color: rgba(39, 39, 39, 0.60);
     font-size: 20px;
     font-family: Lato;
     margin-top: 15px;
@@ -101,6 +103,7 @@ padding-top: 100px;
 
 }
 .insta-description{
+    color: rgba(39, 39, 39, 0.60);
     font-size: 20px;
     font-family: Lato;
     margin-top: 15px;
@@ -141,6 +144,7 @@ padding-top: 100px;
     
 }
 .latest-description{
+    color: rgba(39, 39, 39, 0.60);
     font-size: 20px;
     font-family: Lato;
     margin-top: 5px;
@@ -192,7 +196,7 @@ padding-top: 100px;
 
 }
 .footer-description{
-    color: white;
+    color: rgba(255, 255, 255, 0.90);
     font-size: 20px;
     font-family: Lato;
     margin-top: 15px;
