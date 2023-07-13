@@ -11,11 +11,14 @@
     align-items: center;
    
 }
+.banner-photo{
 
+}
 .banner-img{
-    width: 500px;
-    margin-bottom: none;
+    width: 600px;
+    margin: 15px 10px 0px 10px;
     display: flex;
+    padding: 18px 10px 0px 10px;
 }
 
 .title{
@@ -114,4 +117,94 @@ padding-top: 100px;
     float: left;
     width: 20%;
     padding: 10px;
+}
+.latest-container{
+    background-image: url('../flowerasset/rectangle9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    justify-content: space-around;
+    height: 100vh;
+    align-content: center;
+    text-align: justify;
+}
+.latest-deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800px;
+    line-height: normal;
+    text-align: center;
+    margin-top: 300px;
+    padding-top: 300px;
+    
+}
+.latest-description{
+    font-size: 20px;
+    font-family: Lato;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+.deal-btn{
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #E55473;
+}
+.form{
+    text-align: center;
+}
+.email{
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.footer-container{
+    background: black;
+        display: block;
+        justify-content: space-around;
+        height: 100vh;
+        align-items: center;
+        margin-top: 50px;
+        padding-top: 50px;
+
+}
+.footer-title{
+    color: white;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+
+}
+.footer-ful{
+    color:#E55473;
+    font-family: Lato;
+
+}
+.footer-description{
+    color: white;
+    font-size: 20px;
+    font-family: Lato;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+.foooter-copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-family: Lato;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
